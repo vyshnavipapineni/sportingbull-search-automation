@@ -1,0 +1,235 @@
+2025-09-19 17:33:25,138 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\vyshn\IdeaProjects\SportsBookSearchAutomation\src\test\resources\testsuite\testng.xml] otherwise TestNG may fail or not work as expected.
+2025-09-19 17:33:25,239 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-09-19 17:33:26,003 [main] WARN  org.testng.internal.Utils - The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+2025-09-19 17:41:45,273 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-09-19 17:42:16,023 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 17:43:27,114 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 17:44:29,482 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 17:44:35,351 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 17:44:35,544 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win64/chromedriver-win64.zip
+2025-09-19 17:44:37,224 [main] INFO  io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2025-09-19 17:44:37,516 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 17:44:40,672 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 17:44:43,821 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 17:44:47,732 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:04:01,325 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 18:04:02,572 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:04:02,679 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:04:04,412 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:04:11,432 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:04:14,743 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:04:14,843 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:04:14,903 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:04:15,861 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:04:19,671 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:04:19,810 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:09:45,858 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 18:09:46,889 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:09:46,971 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:09:48,533 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:09:54,013 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:09:56,904 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:09:56,994 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:09:57,049 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:09:58,070 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:10:01,859 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:10:02,023 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:11:47,454 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 18:11:48,496 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:11:48,534 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:11:50,064 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:12:01,327 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:12:03,941 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:12:04,036 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:12:04,100 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:12:05,097 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:12:08,109 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:12:08,281 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:19:36,164 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-09-19 18:19:38,481 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:19:38,608 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:19:40,838 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:19:45,212 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:19:48,163 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:28:13,137 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 18:28:14,970 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:28:15,100 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:28:17,398 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:28:21,662 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:28:25,975 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:28:26,062 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:28:26,228 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:28:27,434 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:28:35,450 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:28:38,739 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:56:06,487 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 18:56:09,703 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:56:09,755 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:56:11,107 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:56:14,338 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:56:16,730 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:56:16,778 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:56:16,837 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:56:17,793 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:56:20,458 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:56:22,301 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:58:25,570 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 18:58:26,914 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:58:26,945 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:58:28,278 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:58:30,490 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:58:33,255 [main] INFO  utils.Log - Driver closed
+2025-09-19 18:58:33,346 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 18:58:33,415 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 18:58:34,321 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 18:58:36,565 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 18:58:38,920 [main] INFO  utils.Log - Driver closed
+2025-09-19 19:02:26,047 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 19:02:27,300 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 19:02:27,377 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 19:02:29,032 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 19:02:35,091 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 19:02:37,240 [main] INFO  utils.Log - Driver closed
+2025-09-19 19:02:37,358 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 19:02:37,408 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 19:02:38,264 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 19:02:41,269 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 19:02:42,061 [main] INFO  utils.Log - Driver closed
+2025-09-19 19:11:00,465 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 19:11:01,603 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 19:11:01,676 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 19:11:03,315 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 19:11:06,548 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 19:11:08,466 [main] INFO  utils.Log - Driver closed
+2025-09-19 19:11:08,605 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 19:11:08,701 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 19:11:09,674 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 19:11:12,090 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 19:11:13,590 [main] INFO  utils.Log - Driver closed
+2025-09-19 19:17:46,724 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\vyshn\AppData\Local\JetBrains\IdeaIC2023.3\temp-testng-customsuite.xml
+
+2025-09-19 19:17:47,887 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-19 19:17:47,995 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-19 19:17:49,617 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-19 19:17:52,515 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-19 19:17:53,863 [main] INFO  utils.Log - Driver closed
+2025-09-20 14:12:10,840 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 14:12:10,928 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 14:17:20,383 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 14:17:20,448 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 14:17:21,740 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 14:17:24,869 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 14:17:46,265 [main] INFO  utils.Log - Driver closed
+2025-09-20 14:25:04,604 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 14:25:04,682 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 14:25:06,254 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 14:25:09,235 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 14:25:31,395 [main] INFO  utils.Log - Driver closed
+2025-09-20 14:46:09,998 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 14:46:10,055 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 14:46:11,677 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 14:46:15,428 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 14:46:36,877 [main] INFO  utils.Log - Driver closed
+2025-09-20 16:51:31,642 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 16:51:31,696 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 16:51:32,968 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 16:51:35,762 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 16:51:36,191 [main] INFO  utils.Log - Driver closed
+2025-09-20 16:52:52,808 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 16:52:52,839 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 16:52:53,847 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 16:52:55,329 [main] INFO  utils.Log - Cookie banner not found or already dismissed.
+2025-09-20 16:52:55,800 [main] INFO  utils.Log - Driver closed
+2025-09-20 16:59:00,837 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 16:59:00,866 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 16:59:02,276 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 16:59:04,213 [main] INFO  utils.Log - Cookie banner not found or already dismissed.
+2025-09-20 16:59:04,819 [main] INFO  utils.Log - Driver closed
+2025-09-20 17:03:18,863 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 17:03:18,911 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 17:03:20,355 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 17:03:22,089 [main] INFO  utils.Log - Cookie banner not found or already dismissed.
+2025-09-20 17:03:22,646 [main] INFO  utils.Log - Driver closed
+2025-09-20 17:11:41,329 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 17:11:41,407 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 17:11:43,304 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 17:11:49,043 [main] INFO  utils.Log - Cookie banner not found or already dismissed.
+2025-09-20 17:11:50,406 [main] INFO  utils.Log - Driver closed
+2025-09-20 17:31:24,615 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 17:31:24,717 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 17:31:26,738 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 17:31:29,345 [main] INFO  utils.Log - Cookie banner not found or already dismissed.
+2025-09-20 17:31:30,162 [main] INFO  utils.Log - Driver closed
+2025-09-20 17:32:26,250 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 17:32:26,305 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 17:32:28,721 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 17:32:29,244 [main] INFO  utils.Log - Cookie banner not found or already dismissed.
+2025-09-20 17:32:31,328 [main] INFO  utils.Log - Driver closed
+2025-09-20 17:40:02,976 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 17:40:03,037 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 17:40:04,983 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 17:40:06,906 [main] INFO  utils.Log - Cookie banner not found or already dismissed.
+2025-09-20 17:40:07,989 [main] INFO  utils.Log - Driver closed
+2025-09-20 17:48:35,057 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 17:48:35,112 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 17:48:37,163 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 17:48:37,730 [main] INFO  utils.Log - Cookie banner not found or already dismissed.
+2025-09-20 17:48:39,939 [main] INFO  utils.Log - Driver closed
+2025-09-20 17:49:35,330 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 17:49:35,384 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 17:49:36,920 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 17:49:39,897 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 17:49:42,275 [main] INFO  utils.Log - Driver closed
+2025-09-20 17:57:37,661 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 17:57:37,712 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 17:57:39,506 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 17:57:42,657 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 17:57:45,351 [main] INFO  utils.Log - Driver closed
+2025-09-20 18:00:24,603 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 18:00:24,671 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 18:00:26,566 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 18:00:30,108 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 18:00:33,304 [main] INFO  utils.Log - Driver closed
+2025-09-20 18:01:26,753 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 18:01:26,803 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 18:01:28,529 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 18:01:32,797 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 18:01:35,098 [main] INFO  utils.Log - Driver closed
+2025-09-20 18:02:40,101 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 18:02:40,167 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 18:02:41,683 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 18:02:44,889 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 18:02:47,622 [main] INFO  utils.Log - Driver closed
+2025-09-20 18:10:39,733 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 18:10:39,797 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 18:10:41,873 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 18:10:44,681 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 18:10:47,566 [main] INFO  utils.Log - Driver closed
+2025-09-20 18:12:02,033 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-20 18:12:02,102 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-20 18:12:03,905 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-20 18:12:07,122 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-20 18:12:30,350 [main] INFO  utils.Log - Driver closed

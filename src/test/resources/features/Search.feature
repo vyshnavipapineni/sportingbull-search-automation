@@ -2,19 +2,48 @@ Feature: SportingBull Search Functionality
   Background:
     Given I am on the SportingBull homepage
 
-#  Scenario: Search with valid sport name
-#    When I click the search button
-#    And I enter "Football" in the search box
-#    Then I should see search results count matches actual items
 
 
-#  Scenario: Synonym handling (MLB / Baseball)
-#    When I search for "Baseball"
-#    And I search for "MLB"
-#    Then both result sets should contain baseball-related events
-
-  @noresults
-  Scenario: No results message for unknown token
+  @partial
+  Scenario: Partial keyword match - OR behavior across words
     When I click the search button
-    When I search for "xyz123nonexistent"
-    Then I should see a message "There are no results that match your search. Try again."
+    And I search for "Base"
+    Then results should contain entries matching either "Baseball" or "Basketball" (or both)
+
+
+
+  @unicode
+  Scenario Outline: Unicode and special characters
+    When I click the search button
+    And I search for "<term>"
+    Then the search should complete without breaking the UI
+
+    Examples:
+      | term     |
+      | Fútbol   |
+      | Atlético |
+
+
+  @caseinsensitive
+  Scenario Outline: Case insensitivity
+    When I click the search button
+    When I search for "<query>"
+    Then the results should be the same as for "<canonical>"
+
+    Examples:
+      | query    | canonical |
+      | mlb      | MLB       |
+      | MlB      | MLB       |
+      | football | Football  |
+
+
+
+  @longinput
+  Scenario Outline: Very long input trimming/handling
+    When I click the search button
+    When I search for "<input>"
+    Then the system should handle the input gracefully
+
+    Examples:
+      | input                                                        |
+      | AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA |

@@ -5,9 +5,11 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.Log;
 import utils.WaitUtils;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class SearchPage {
 
@@ -20,6 +22,7 @@ public class SearchPage {
         PageFactory.initElements(driver,this);
 
     }
+
 
 
 
@@ -36,6 +39,9 @@ public class SearchPage {
     @FindBy(css = "div.search-no-results")
     private List<WebElement> noResultsMessages;
 
+    @FindBy(xpath = "//a[contains(@class,'sports-search-competitions__item')]")
+    private List<WebElement> resultItems;
+
 
     public void clickSearchButton() {
 
@@ -49,37 +55,37 @@ public class SearchPage {
         input.sendKeys(Keys.ENTER);
 
     }
-
-
+    public List<String> getResultTitles() {
+        wait.until(ExpectedConditions.visibilityOfAllElements(resultItems));
+        return resultItems.stream().map(WebElement::getText).collect(Collectors.toList());
+    }
 
     public String getNoResultsMessageByText(String expectedText) {
         try {
-            // wait until at least one no-results element is visible
-            List<WebElement> elements = wait.until(
-                    ExpectedConditions.visibilityOfAllElementsLocatedBy(
-                            By.cssSelector("div.search-no-results")
+            Log.info("Attempting to locate no-results message with text: " + expectedText);
+            // Wait for the element with the expected text to become visible.
+            WebElement messageElement = wait.until(
+                    ExpectedConditions.visibilityOfElementLocated(
+                            By.xpath("//*[contains(text(), '" + expectedText + "')]")
                     )
             );
 
-            for (WebElement el : elements) {
-                if (el.isDisplayed()) {
-                    String text = el.getText().trim();
-                    System.out.println("Candidate message: " + text);
-                    if (text.contains(expectedText)) {
-                        return text;
-                    }
-                }
-            }
+            System.out.println("The message element text is: " + messageElement.getText());
 
-            System.out.println("No element contained expected text: " + expectedText);
-            return null;
+            String actualText = messageElement.getText().trim();
+            Log.info("No-results message found and visible: " + actualText);
+            return actualText;
 
         } catch (TimeoutException e) {
-            System.out.println("No results message did not appear in time.");
+            // This error indicates the element never appeared within the timeout.
+            Log.error("Expected no-results message not found: " + expectedText);
+            return null;
+        } catch (Exception e) {
+            // Catch any other unexpected errors.
+            Log.error("An unexpected error occurred while searching for the message: " + e.getMessage());
             return null;
         }
     }
-
 
 
 }

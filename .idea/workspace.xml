@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e397b605-d13e-4372-b7f6-82045711704e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/automation-.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/automation-.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reports/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/No results message for unknown token.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/No results message for unknown token.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/SearchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SearchSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/Log.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/WaitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/WaitUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/CookieHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/CookieHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,27 +35,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: Search.executor": "Run",
-    "Cucumber Java.Scenario: Case insensitivity.executor": "Run",
-    "Cucumber Java.Scenario: No results message for unknown token.executor": "Run",
-    "Cucumber Java.Scenario: Partial keyword match - OR behavior across words.executor": "Run",
-    "Cucumber Java.Scenario: Synonym handling (MLB / Baseball).executor": "Run",
-    "Cucumber Java.Scenario: Synonym handling (MLB).executor": "Run",
-    "Cucumber Java.Scenario: Unicode and special characters.executor": "Run",
-    "Cucumber Java.Scenario: Very long input trimming/handling.executor": "Run",
-    "Maven.SportsBookSearchAutomation [clean].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vyshn/IdeaProjects/SportsBookSearchAutomation",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: Search.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Case insensitivity.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: No results message for unknown token.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Partial keyword match - OR behavior across words.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Synonym handling (MLB / Baseball).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Synonym handling (MLB).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Unicode and special characters.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Very long input trimming/handling.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.SportsBookSearchAutomation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vyshn/IdeaProjects/SportsBookSearchAutomation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vyshn\IdeaProjects\SportsBookSearchAutomation" />

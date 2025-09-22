@@ -458,3 +458,19 @@
 2025-09-21 21:28:33,204 [main] INFO  utils.Log - Clicked search button
 2025-09-21 21:28:33,591 [main] INFO  utils.Log - Searching for: Base
 2025-09-21 21:28:35,005 [main] INFO  utils.Log - Driver closed
+2025-09-22 11:04:09,538 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-22 11:04:09,694 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-22 11:04:11,807 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-22 11:04:14,715 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-22 11:04:15,222 [main] INFO  utils.Log - Opened SportingBull homepage
+2025-09-22 11:04:15,960 [main] INFO  utils.Log - Clicked search button
+2025-09-22 11:04:16,341 [main] INFO  utils.Log - Searching for: Base
+2025-09-22 11:04:18,025 [main] INFO  utils.Log - Driver closed
+2025-09-22 11:13:09,816 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 140.0.7339.185 (resolved driver for Chrome 140)
+2025-09-22 11:13:09,906 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\vyshn\.cache\selenium\chromedriver\win64\140.0.7339.185\chromedriver.exe
+2025-09-22 11:13:11,838 [main] INFO  utils.Log - Driver initialized for browser: chrome
+2025-09-22 11:13:14,708 [main] INFO  utils.Log - Cookie settings handled successfully.
+2025-09-22 11:13:14,999 [main] INFO  utils.Log - Opened SportingBull homepage
+2025-09-22 11:13:16,336 [main] INFO  utils.Log - Clicked search button
+2025-09-22 11:13:16,704 [main] INFO  utils.Log - Searching for: Base
+2025-09-22 11:13:18,766 [main] INFO  utils.Log - Driver closed
